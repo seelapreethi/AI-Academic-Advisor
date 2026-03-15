@@ -1,0 +1,11 @@
+{
+  "project_name": "AI Academic Advisor MCP",
+  "description": "An AI academic advisor agent using MCP architecture with hybrid memory (SQLite + ChromaDB) and a local LLM via Ollama.",
+  "test_user_id": "student1",
+  "example_queries": [
+    "I want to learn AI",
+    "What should I study for machine learning?",
+    "What did I ask earlier?"
+  ],
+  "expected_behavior": "The agent retrieves relevant memories using semantic search and generates a response using the LLM. Conversations are stored persistently for future retrieval."
+}
